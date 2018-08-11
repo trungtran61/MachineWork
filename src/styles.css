@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+.body{font-size: 10pt!Important}
+.body-content {
+  margin-top: 1em;
+}
+
+/* Slide transition */
+mw-root div.panel.panel-primary {
+  animation-duration: .5s;
+  animation-name: slideIn;
+  animation-fill-mode: forwards;
+  transition: transform .5s ease;
+}
+
+@keyframes slideIn {
+from {
+  transform: translate(-200px);
+}
+
+to {
+  transform: translate(0px);
+}
+}
+
+validation-messages div {
+  color: #E82C0C;
+  margin: 3px 0;
+}
+
+.bg-heading{
+  background-color: lightgrey;
+}
+.pop{
+  border: 1px solid rgb(190, 186, 186)
+}
+.pop:hover{
+  opacity: 0.6;
+  border: 2px solid blue;  
+}
+
+a:hover{text-decoration: none;}
+.card-heading{
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+.card-row{
+  margin: 5px 0px 5px 15px!Important;
+}
+
+.divWithScroll {
+  height:150px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
